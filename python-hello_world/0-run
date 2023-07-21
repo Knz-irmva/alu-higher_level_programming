@@ -1,5 +1,3 @@
 #!/bin/bash
-#task 0
-
 python3 "$PYFILE"
 
