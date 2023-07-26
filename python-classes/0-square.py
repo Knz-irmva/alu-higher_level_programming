@@ -1,15 +1,7 @@
 #!/usr/bin/python3
-# task 0
+
+"""Define a Class Square.""" 
+
 
 class Square:
-    """
-    This class represents a square.
-
-    Attributes:
-        None
-
-    Methods:
-        None
-    """
-    pass
-
+    """Represent a sqaure."""
