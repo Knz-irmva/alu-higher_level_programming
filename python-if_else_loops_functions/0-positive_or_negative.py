@@ -1,17 +1,9 @@
 #!/usr/bin/python3
 import random
-
-# Assign a random signed number to the variable number
-number = random.randint(-100, 100)
-
-# Print the assigned number
-print(f'The number {number}', end=' ')
-
-# Check if the number is positive, zero, or negative
+number = random.randint(-10, 10)
 if number > 0:
-    print('is positive')
+    print(f"{number} is positive")
 elif number == 0:
-    print('is zero')
+    print(f"{number} is zero")
 else:
-    print('is negative')
-
+    print(f"{number} is negative")
