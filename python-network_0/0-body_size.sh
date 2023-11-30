@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Check if a URL is provided as an argument
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <URL>"
@@ -17,3 +16,4 @@ if [ -z "$size" ]; then
 else
     echo "Size of the response body: ${size} bytes"
 fi
+
